@@ -1,22 +1,17 @@
 import React from 'react';
 import { StyleSheet, Text, View, Linking, TouchableOpacity, ScrollView } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 
 
 export default function App() {
     return (
       <View style={styles.container}>
   
-  <TouchableOpacity style={styles.TouchableOpacity}>
-    
-       <Text
-             style={styles.hyperlinkStyle}
+  <TouchableOpacity style={styles.TouchableOpacity}
              onPress={() => {
                Linking.openURL('https://wa.me/+5521973705035/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
              }}>
-           Comerciantes do Bairro
-           </Text>   
+           <Text>Comerciantes do Bairro</Text>   
       </TouchableOpacity>
   
   
