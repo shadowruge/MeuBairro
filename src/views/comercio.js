@@ -9,7 +9,7 @@ export default function App() {
   
   <TouchableOpacity style={styles.TouchableOpacity}
              onPress={() => {
-               Linking.openURL('https://wa.me/+5521973705035/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
+               Linking.openURL('https://wa.me/seutelaqui/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
              }}>
            <Text>Comerciantes do Bairro</Text>   
       </TouchableOpacity>
