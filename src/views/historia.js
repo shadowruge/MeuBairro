@@ -12,20 +12,12 @@ export default function App() {
             <Text>Conheça à Encima da Hora</Text>
             </TouchableOpacity>
 
-  
-
-
-
-
    <TouchableOpacity style={styles.TouchableOpacity}
             onPress={() => {
               Linking.openURL('https://www.luizferro.com.br/sites/paroquiasaopedro/index.htm');
             }}>   
             <Text>Conheça à Paróquia Apostulo São Pedro</Text>
             </TouchableOpacity>
-
-  
-   
 
    <TouchableOpacity style={styles.TouchableOpacity}
             onPress={() => {

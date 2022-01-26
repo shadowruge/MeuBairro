@@ -7,29 +7,26 @@ export default function App() {
   return (
     <View style={styles.container}>
  
-<TouchableOpacity style={styles.TouchableOpacity}
+    <TouchableOpacity style={styles.TouchableOpacity}
            onPress={() => {
              Linking.openURL('https://odia.ig.com.br/');
            }}>
          <Text>O Dia</Text>
-       
-   
-   </TouchableOpacity>
+    </TouchableOpacity>
 
 
-   <TouchableOpacity style={styles.TouchableOpacity}
+    <TouchableOpacity style={styles.TouchableOpacity}
            onPress={() => {
              Linking.openURL('https://www.r7.com/');
            }}>
         <Text>R7</Text>
-       </TouchableOpacity>
+    </TouchableOpacity>
 
    <TouchableOpacity style={styles.TouchableOpacity}
            onPress={() => {
              Linking.openURL('https://g1.globo.com/rj/rio-de-janeiro/');
            }}>
-      <Text>G1</Text> 
-         
+      <Text>G1</Text>   
    </TouchableOpacity>
 
 
@@ -48,10 +45,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#B8EAED',
-    paddingTop: 10,
-    paddingHorizontal: 20,
-   
+    margin: 10,
+    marginTop: 200,
+    
   },
   
   TouchableOpacity:{
