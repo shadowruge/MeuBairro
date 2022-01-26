@@ -1,53 +1,30 @@
 import React from 'react';
-import { StyleSheet, Text, View, Linking, TouchableOpacity, ScrollView} from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { StyleSheet, Text, View, Linking, TouchableOpacity} from 'react-native';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
+    <TouchableOpacity style={styles.TouchableOpacity}
+            onPress={() => {
+              Linking.openURL('https://pt.wikipedia.org/wiki/Em_Cima_da_Hora_(Rio_de_Janeiro)');
+            }}>   
+            <Text>Conheça à Encima da Hora</Text>
+            </TouchableOpacity>
 
-<TouchableOpacity style={styles.TouchableOpacity}>
-  
-     <Text>
-         Conheça {' '}
-         <Text
-           style={styles.hyperlinkStyle}
-           onPress={() => {
-             Linking.openURL('https://pt.wikipedia.org/wiki/Cavalcanti_(bairro_do_Rio_de_Janeiro)');
-           }}>
-         Cavalcanti
-         </Text>
-       </Text>
-     
-    </TouchableOpacity>
-    
-    <TouchableOpacity style={styles.TouchableOpacity}>
-    <Text>
-      Conheça à {' '}
-      <Text
-        style={styles.hyperlinkStyle}
-        onPress={() => {
-          Linking.openURL('https://pt.wikipedia.org/wiki/Em_Cima_da_Hora_(Rio_de_Janeiro)');
-        }}>
-      Encima da Hora
-      </Text>
-    </Text>
-   </TouchableOpacity>
+   <TouchableOpacity style={styles.TouchableOpacity}
+            onPress={() => {
+              Linking.openURL('https://www.luizferro.com.br/sites/paroquiasaopedro/index.htm');
+            }}>   
+            <Text>Conheça à Paróquia Apostulo São Pedro</Text>
+            </TouchableOpacity>
 
-   <TouchableOpacity style={styles.TouchableOpacity}>
-    <Text>
-      Conheça à {' '}
-      <Text
-        style={styles.hyperlinkStyle}
-        onPress={() => {
-          Linking.openURL('https://www.luizferro.com.br/sites/paroquiasaopedro/index.htm');
-        }}>
-      Paróquia Apostulo São Pedro
-      </Text>
-    </Text>
-   </TouchableOpacity>
-
+   <TouchableOpacity style={styles.TouchableOpacity}
+            onPress={() => {
+              Linking.openURL('https://pt.wikipedia.org/wiki/Cavalcanti_(bairro_do_Rio_de_Janeiro)');
+            }}>   
+            <Text>Conheça  Cavalcanti</Text>
+            </TouchableOpacity>
 
   
     </View>

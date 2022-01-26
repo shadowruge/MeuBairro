@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, Linking, Button, TouchableOpacity} from 'react-native';
+import { StyleSheet, Text, View, Linking, TouchableOpacity} from 'react-native';
 
 
 
@@ -7,52 +7,31 @@ export default function App() {
   return (
     <View style={styles.container}>
  
-<TouchableOpacity style={styles.TouchableOpacity}>
-     
-     <Text>
-         Portal {' '}
-         <Text
-           style={styles.hyperlinkStyle}
+    <TouchableOpacity style={styles.TouchableOpacity}
            onPress={() => {
              Linking.openURL('https://odia.ig.com.br/');
            }}>
-         O Dia
-         </Text>
-       </Text>
-   
-   </TouchableOpacity>
+         <Text>O Dia</Text>
+    </TouchableOpacity>
 
 
-   <TouchableOpacity style={styles.TouchableOpacity}>
-     
-     <Text>
-         Portal {' '}
-         <Text
-           style={styles.hyperlinkStyle}
+    <TouchableOpacity style={styles.TouchableOpacity}
            onPress={() => {
              Linking.openURL('https://www.r7.com/');
            }}>
-        R7
-         </Text>
-       </Text>
-   
-   </TouchableOpacity>
+        <Text>R7</Text>
+    </TouchableOpacity>
 
-   <TouchableOpacity style={styles.TouchableOpacity}>
-     
-     <Text>
-         Portal {' '}
-         <Text
-           style={styles.hyperlinkStyle}
+   <TouchableOpacity style={styles.TouchableOpacity}
            onPress={() => {
              Linking.openURL('https://g1.globo.com/rj/rio-de-janeiro/');
            }}>
-       G1
-         </Text>
-       </Text>
-   
+      <Text>G1</Text>   
    </TouchableOpacity>
 
+
+
+   
 
 
           </View>
@@ -66,10 +45,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#B8EAED',
-    paddingTop: 10,
-    paddingHorizontal: 20,
-   
+    margin: 10,
+    marginTop: 200,
+    
   },
   
   TouchableOpacity:{

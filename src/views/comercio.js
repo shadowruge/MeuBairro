@@ -1,25 +1,23 @@
 import React from 'react';
-import { StyleSheet, Text, View, Linking, TouchableOpacity, ScrollView } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { StyleSheet, Text, View,TouchableOpacity, Image} from 'react-native';
 
 
-export default function App() {
+
+export default function App({navigation}) {
     return (
       <View style={styles.container}>
   
-  <TouchableOpacity style={styles.TouchableOpacity}>
-    
-       <Text
-             style={styles.hyperlinkStyle}
-             onPress={() => {
-               Linking.openURL('https://wa.me/seutelaqui/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
-             }}>
-           Comerciantes do Bairro
-           </Text>   
-      </TouchableOpacity>
   
   
+      <TouchableOpacity style={styles.TouchableOpacity}
+            onPress={() => {
+              navigation.navigate('Altas Horas Lanches');
+            }}>   
+                    <Image style={styles.Image}
+      source={require ('../../assets/altashoras/index.png')}
+    /> 
+            <Text>Altas Horas Lanches</Text>
+            </TouchableOpacity>
     
       </View>
     );
@@ -28,19 +26,25 @@ export default function App() {
   const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#B8EAED',
-      paddingTop: 10,
-      paddingHorizontal: 20,
-    
+      margin: 10,
+      marginTop: 200,
+      
     },
     
-    TouchableOpacity:{
-      backgroundColor:'#FFF',
+    TouchableOpacity: {
+      flexDirection: 'row',
+      backgroundColor: '#FFF',
       padding: 15,
       borderRadius: 10,
-      marginBottom:10,
+      marginBottom: 10,
+      alignItems: 'center',
       
+    },
+  
+    Image:{
+     marginRight:16,
+  height:50,
+  width:50
     }
-    
   });
   
