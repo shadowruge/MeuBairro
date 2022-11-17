@@ -1,5 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View, Linking, TouchableOpacity, Image } from 'react-native';
+import { 
+  StyleSheet,
+  Text,
+  View,
+  Linking,
+  TouchableOpacity,
+  Image } from 'react-native';
 
 
 export default function App() {
@@ -10,9 +16,9 @@ export default function App() {
         onPress={() => {
           Linking.openURL('https://wa.me/seutelaqui/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
         }}>
-        <Text>Setnamedrive</Text>
+        <Text></Text>
         <Image style={styles.Image}
-          source={require('../../assets/uber/index.png')}
+          source={require('../../../assets/uber/index.png')}
         />
       </TouchableOpacity>
 

@@ -19,7 +19,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://associacaoculturalespacocarioca.000webhostapp.com/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/acec/acec.png')}
+            source={require('../../../assets/acec/acec.png')}
           />
           <Text>Associação Cultural Espaço Carioca</Text>
 
@@ -30,9 +30,9 @@ export default function App({ navigation }) {
             navigation.navigate('Historia');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/cavalcanti/index.jpeg')}
+            source={require('../../../assets/cavalcanti/index.jpeg')}
           />
-          <Text>Historia de Cavalcanti</Text>
+          <Text>História de Cavalcanti</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.TouchableOpacity}
@@ -40,9 +40,9 @@ export default function App({ navigation }) {
             navigation.navigate('Noticias');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/noticias/images.jpeg')}
+            source={require('../../../assets/noticias/images.jpeg')}
           />
-          <Text>Noticias</Text>
+          <Text>Notícias</Text>
         </TouchableOpacity>
 
 
@@ -51,7 +51,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.detran.rj.gov.br/index.asp');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/detran/index.jpeg')}
+            source={require('../../../assets/detran/index.jpeg')}
           />
           <Text>Detran RJ</Text>
         </TouchableOpacity>
@@ -62,7 +62,7 @@ export default function App({ navigation }) {
           }}>
 
           <Image style={styles.Image}
-            source={require('../../assets/caixa/index.png')}
+            source={require('../../../assets/caixa/index.png')}
           />
           <Text>Caixa Economica Federal</Text>
         </TouchableOpacity>
@@ -72,7 +72,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.bb.com.br/pbb/pagina-inicial#/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/BB/index.png')}
+            source={require('../../../assets/BB/index.png')}
           />
           <Text>Banco do Brasil</Text>
         </TouchableOpacity>
@@ -82,7 +82,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.spcbrasil.org.br/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/SPC/index.jpeg')}
+            source={require('../../../assets/SPC/index.jpeg')}
           />
           <Text>SPC</Text>
         </TouchableOpacity>
@@ -92,7 +92,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.gov.br/inss/pt-br');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/inss/index.png')}
+            source={require('../../../assets/inss/index.png')}
           />
           <Text>INSS</Text>
         </TouchableOpacity>
@@ -102,7 +102,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.gov.br/trabalho-e-previdencia/pt-br');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/MTE/index.png')}
+            source={require('../../../assets/MTE/index.png')}
           />
           <Text>Ministerio do Trabalho e Previdência</Text>
         </TouchableOpacity>
@@ -112,7 +112,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.jusbrasil.com.br/l/advogados-online');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/ADON/index.png')}
+            source={require('../../../assets/ADON/index.png')}
           />
           <Text>Advogados Online</Text>
         </TouchableOpacity>
@@ -122,7 +122,7 @@ export default function App({ navigation }) {
             Linking.openURL('http://portal.mec.gov.br/acessibilidade-sp-940674614/190-secretarias-112877938/setec-1749372213/12556-rio-de-janeiro');;
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/MDE/index.png')}
+            source={require('../../../assets/MDE/index.png')}
           />
           <Text>Ministerio da Educação RJ</Text>
         </TouchableOpacity>
@@ -132,7 +132,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.fetranspor.com.br/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/fetranpor/index.jpeg')}
+            source={require('../../../assets/fetranpor/index.jpeg')}
           />
           <Text>Fetranspor RJ</Text>
         </TouchableOpacity>
@@ -142,7 +142,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.cartaoriocard.com.br/rcc/institucional');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/riocard/index.jpeg')}
+            source={require('../../../assets/riocard/index.jpeg')}
           />
           <Text>Riocard RJ</Text>
         </TouchableOpacity>
@@ -152,7 +152,7 @@ export default function App({ navigation }) {
             Linking.openURL('http://prefeitura.rio/todas-as-noticias/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/prefeitura/index.png')}
+            source={require('../../../assets/prefeitura/index.png')}
           />
           <Text style={{ padding: 10 }}>Prefeitura do RJ</Text>
         </TouchableOpacity>
@@ -162,7 +162,7 @@ export default function App({ navigation }) {
             Linking.openURL('http://www.rj.gov.br/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/estado/index.jpeg')}
+            source={require('../../../assets/estado/index.jpeg')}
           />
           <Text>Governo do Estado RJ</Text>
         </TouchableOpacity>
@@ -172,7 +172,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://sepm.rj.gov.br/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/pm/index.png')}
+            source={require('../../../assets/pm/index.png')}
           />
           <Text>Polícia Militar RJ</Text>
         </TouchableOpacity>
@@ -182,7 +182,7 @@ export default function App({ navigation }) {
             Linking.openURL('http://www.policiacivilrj.net.br/index.php');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/pc/index.png')}
+            source={require('../../../assets/pc/index.png')}
           />
           <Text>Polícia Civil RJ</Text>
         </TouchableOpacity>
@@ -192,7 +192,7 @@ export default function App({ navigation }) {
             Linking.openURL('http://www.cbmerj.rj.gov.br/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/cb/index.jpeg')}
+            source={require('../../../assets/cb/index.jpeg')}
           />
 
           <Text>Corpo de Bombeiros Militar RJ</Text>
@@ -203,7 +203,7 @@ export default function App({ navigation }) {
             Linking.openURL('http://www.defesacivil.rj.gov.br/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/dc/index.png')}
+            source={require('../../../assets/dc/index.png')}
           />
 
           <Text>Defesa Civil RJ</Text>
@@ -214,7 +214,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/receitafederal/receita.png')}
+            source={require('../../../assets/receitafederal/receita.png')}
           />
 
           <Text>Receita Federal</Text>
@@ -225,7 +225,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.gov.br/prf/pt-br');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/prf/Prf_brasao_novo.jpg')}
+            source={require('../../../assets/prf/Prf_brasao_novo.jpg')}
           />
 
           <Text>Policia Rodoviarea Federal</Text>
@@ -236,7 +236,7 @@ export default function App({ navigation }) {
             Linking.openURL('https://www.prt1.mpt.mp.br/');
           }}>
           <Image style={styles.Image}
-            source={require('../../assets/ministeriopublico/index.png')}
+            source={require('../../../assets/ministeriopublico/index.png')}
           />
 
           <Text>Ministerio Público RJ</Text>

@@ -1,42 +1,58 @@
-import React from 'react';
-import { StyleSheet, Text, View, Linking, TouchableOpacity } from 'react-native';
+import React from "react";
+import { 
+  StyleSheet,
+  Text,
+  View,
+  Linking,
+  TouchableOpacity
+} from 'react-native';
+
 
 
 export default function App() {
   return (
     <View style={styles.container}>
+
       <TouchableOpacity style={styles.TouchableOpacity}
         onPress={() => {
-          Linking.openURL('https://pt.wikipedia.org/wiki/Em_Cima_da_Hora_(Rio_de_Janeiro)');
+          Linking.openURL('https://odia.ig.com.br/');
         }}>
-        <Text>Conheça à Encima da Hora</Text>
+        <Text>O Dia</Text>
+      </TouchableOpacity>
+
+
+      <TouchableOpacity style={styles.TouchableOpacity}
+        onPress={() => {
+          Linking.openURL('https://www.r7.com/');
+        }}>
+        <Text>R7</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.TouchableOpacity}
         onPress={() => {
-          Linking.openURL('https://www.luizferro.com.br/sites/paroquiasaopedro/index.htm');
+          Linking.openURL('https://g1.globo.com/rj/rio-de-janeiro/');
         }}>
-        <Text>Conheça à Paróquia Apostulo São Pedro</Text>
+        <Text>G1</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.TouchableOpacity}
-        onPress={() => {
-          Linking.openURL('https://pt.wikipedia.org/wiki/Cavalcanti_(bairro_do_Rio_de_Janeiro)');
-        }}>
-        <Text>Conheça  Cavalcanti</Text>
-      </TouchableOpacity>
+
+
+
 
 
     </View>
+
+
+
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#B8EAED',
-    paddingTop: 10,
-    paddingHorizontal: 20,
+    margin: 10,
+    marginTop: 200,
 
   },
 
@@ -45,7 +61,6 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 10,
     marginBottom: 10,
-
   }
 
 });
