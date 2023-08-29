@@ -14,11 +14,11 @@ export default function App() {
 
       <TouchableOpacity style={styles.TouchableOpacity}
         onPress={() => {
-          Linking.openURL('https://wa.me/seutelaqui/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
+          Linking.openURL('https://wa.me/+5521966562979/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
         }}>
-        <Text></Text>
+        <Text>Izaias</Text>
         <Image style={styles.Image}
-          source={require('../../../assets/uber/index.png')}
+          source={require('../../../assets/uber/izaias.png')}
         />
       </TouchableOpacity>
 
