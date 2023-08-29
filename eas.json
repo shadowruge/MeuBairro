@@ -1,0 +1,20 @@
+{
+  "cli": {
+    "version": ">= 4.1.2"
+  },
+  "build": {
+    "preview": {
+      "android":{
+        "buildType": "apk"
+      }
+      
+    },
+    "preview2": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}

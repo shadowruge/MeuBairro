@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MeuBairro",
-    "slug": "MeuBairro",
+    "slug": "meubairro-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,15 +11,14 @@
       "backgroundColor": "#B8EAED"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2c2d152f-f96c-4b9b-9d17-cff9cdf8c2f5"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
-
     "android": {
-      "package" : "com.meubairro.yourappname",
-
+      "package": "com.meubairro.yourappname",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#B8EAED"
@@ -27,6 +26,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c2d152f-f96c-4b9b-9d17-cff9cdf8c2f5"
+      }
+    },
+    "owner": "shadowruge",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "ios": {}
   }
 }
