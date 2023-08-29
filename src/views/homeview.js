@@ -12,18 +12,6 @@ export default function App({ navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <TouchableOpacity style={styles.TouchableOpacity}>
-          <Text
-            style={styles.hyperlinkStyle}
-            onPress={() => {
-              Linking.openURL(
-                "https://associacaoculturalespacocarioca.000webhostapp.com/"
-              );
-            }}
-          >
-            Associação Cultural Espaço Carioca
-          </Text>
-        </TouchableOpacity>
 
         <TouchableOpacity style={styles.TouchableOpacity}>
           <Text

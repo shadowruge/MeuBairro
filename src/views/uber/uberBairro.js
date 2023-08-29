@@ -14,7 +14,7 @@ export default function App() {
 
       <TouchableOpacity style={styles.TouchableOpacity}
         onPress={() => {
-          Linking.openURL('https://wa.me/+5521966562979/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
+          Linking.openURL('https://wa.me/+5521966562979/?text=Você%20está%20disponivel%20para%20uma%20corrida?%20');
         }}>
         <Text>Izaias</Text>
         <Image style={styles.Image}
