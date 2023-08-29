@@ -16,17 +16,6 @@ export default function App({ navigation }) {
 
         <TouchableOpacity style={styles.TouchableOpacity}
           onPress={() => {
-            Linking.openURL('https://associacaoculturalespacocarioca.000webhostapp.com/');
-          }}>
-          <Image style={styles.Image}
-            source={require('../../../assets/acec/acec.png')}
-          />
-          <Text>Associação Cultural Espaço Carioca</Text>
-
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.TouchableOpacity}
-          onPress={() => {
             navigation.navigate('Historia');
           }}>
           <Image style={styles.Image}
