@@ -16,10 +16,11 @@ export default function App() {
         onPress={() => {
           Linking.openURL('https://wa.me/seutelaqui/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
         }}>
-        <Text></Text>
         <Image style={styles.Image}
           source={require('../../../assets/comercio/sale.png')}
         />
+        
+        <Text> </Text><Text>Anuncie aqui!</Text>
       </TouchableOpacity>
 
 

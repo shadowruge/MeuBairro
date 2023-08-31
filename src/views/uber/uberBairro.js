@@ -16,10 +16,10 @@ export default function App() {
         onPress={() => {
           Linking.openURL('https://wa.me/+5521966562979/?text=Você%20está%20disponivel%20para%20uma%20corrida?%20');
         }}>
-        <Text>Izaias</Text>
         <Image style={styles.Image}
           source={require('../../../assets/uber/izaias.png')}
         />
+          <Text>   </Text>  <Text>Izaias</Text>
       </TouchableOpacity>
 
 

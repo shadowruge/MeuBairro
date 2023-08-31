@@ -13,6 +13,15 @@ export default function App({ navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView>
+      <TouchableOpacity style={styles.TouchableOpacity}
+          onPress={() => {
+            Linking.openURL('https://wa.me/+5521971978742/?text=Presiso%20de%20orientações%20sobre%20a%20esta%20associação%20');
+          }}>
+          <Image style={styles.Image}
+            source={require('../../../assets/acec/acec.png')}
+          />
+          <Text>Associação Cultural Espaço Carioca</Text> 
+        </TouchableOpacity>
 
         <TouchableOpacity style={styles.TouchableOpacity}
           onPress={() => {
@@ -33,7 +42,6 @@ export default function App({ navigation }) {
           />
           <Text>Notícias</Text>
         </TouchableOpacity>
-
 
         <TouchableOpacity style={styles.TouchableOpacity}
           onPress={() => {
