@@ -13,14 +13,14 @@ export default function App({ navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView>
-      <TouchableOpacity style={styles.TouchableOpacity}
+        <TouchableOpacity style={styles.TouchableOpacity}
           onPress={() => {
             Linking.openURL('https://wa.me/+5521971978742/?text=Presiso%20de%20orientações%20sobre%20a%20esta%20associação%20');
           }}>
           <Image style={styles.Image}
             source={require('../../../assets/acec/acec.png')}
           />
-          <Text>Associação Cultural Espaço Carioca</Text> 
+          <Text>Associação Cultural Espaço Carioca</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.TouchableOpacity}
@@ -92,16 +92,6 @@ export default function App({ navigation }) {
             source={require('../../../assets/inss/index.png')}
           />
           <Text>INSS</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.TouchableOpacity}
-          onPress={() => {
-            Linking.openURL('https://www.gov.br/trabalho-e-previdencia/pt-br');
-          }}>
-          <Image style={styles.Image}
-            source={require('../../../assets/MTE/index.png')}
-          />
-          <Text>Ministerio do Trabalho e Previdência</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.TouchableOpacity}
@@ -268,7 +258,8 @@ const styles = StyleSheet.create({
   Image: {
     marginRight: 16,
     height: 50,
-    width: 50
+    width: 50,
+    gap: 14
   }
 
 

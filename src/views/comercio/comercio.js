@@ -14,13 +14,13 @@ export default function App() {
 
       <TouchableOpacity style={styles.TouchableOpacity}
         onPress={() => {
-          Linking.openURL('https://wa.me/seutelaqui/?text=Eu%20tenho%20interesse%20no%20seu%20Produto%20à%20venda');
+          Linking.openURL('https://forms.gle/6pazWy5TXb5XD8zg6');
         }}>
         <Image style={styles.Image}
           source={require('../../../assets/comercio/sale.png')}
         />
         
-        <Text> </Text><Text>Anuncie aqui!</Text>
+        <Text style={styles.Text}>Anuncie aqui!</Text>
       </TouchableOpacity>
 
 
@@ -52,5 +52,10 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     marginLeft: 10
-  }
+  },
+   
+  Text: {
+    width: 100,
+    marginLeft: 10,
+  },
 });

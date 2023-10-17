@@ -20,7 +20,7 @@ export default function App() {
 
       <TouchableOpacity style={styles.TouchableOpacity}
         onPress={() => {
-          Linking.openURL('https://www.luizferro.com.br/sites/paroquiasaopedro/index.htm');
+          Linking.openURL('https://www.facebook.com/paroquiaapostolosaopedro/');
         }}>
         <Text>Conheça à Paróquia Apostulo São Pedro</Text>
       </TouchableOpacity>

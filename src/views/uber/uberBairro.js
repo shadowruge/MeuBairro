@@ -19,7 +19,17 @@ export default function App() {
         <Image style={styles.Image}
           source={require('../../../assets/uber/izaias.png')}
         />
-          <Text>   </Text>  <Text>Izaias</Text>
+        <Text style={styles.Text}>Izaias</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.TouchableOpacity}
+        onPress={() => {
+          Linking.openURL('https://forms.gle/XWKsE7jEjbgigDhTA');
+        }}>
+        <Image style={styles.Image}
+          source={require('../../../assets/uber/index.png')}
+        />
+        <Text style={styles.Text}>Se cadastre aqui!</Text>
       </TouchableOpacity>
 
 
@@ -50,6 +60,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: 100,
     height: 100,
-    marginLeft: 10
-  }
+    marginLeft: 10,
+    
+  },
+  
+  Text: {
+    width: 100,
+    marginLeft: 10,
+  },
+  
 });

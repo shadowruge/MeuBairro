@@ -72,5 +72,6 @@ const styles = StyleSheet.create({
     marginRight: 16,
     height: 50,
     width: 50,
+    gap:14
   },
 });
