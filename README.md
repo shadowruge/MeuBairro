@@ -18,3 +18,6 @@ Uma das características distintivas do MeuBairro é sua abordagem simples e efi
 
 Junte-se a nós para tornar a interação em nosso bairro mais próxima, conveniente e gratificante!
 
+<a href="https://drive.google.com/file/d/12ScYpT3cygVK4IT3LnYu-XNh9GFAA4uA/view?usp=share_link">Link Para Download do App!</a>
+<br />
+## Lembrete o Aplicativo ainda não está assinado pelo Google, então ao instalá-lo vera uma mensagem de alerta de aplicativo mal-intencionado, mas garanto o aplicativo é seguro.
