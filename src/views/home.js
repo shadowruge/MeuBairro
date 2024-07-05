@@ -46,7 +46,7 @@ export default function App({ navigation }) {
           style={styles.Image}
           source={require("../../assets/utilidadepublica/index.png")}
         />
-        <Text>Utilidade Publica</Text>
+        <Text>Utilidade Pública</Text>
       </TouchableOpacity>
     </View>
   );
